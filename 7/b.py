@@ -32,6 +32,5 @@ for eq in equations:
             ctr += int(sol)
             break
     try_ctr += 1
-    print(str(try_ctr) + "/" + str(len(equations)) + " done. ctr=" + str(ctr))
 
 print(ctr)
